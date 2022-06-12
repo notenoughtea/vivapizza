@@ -1,0 +1,16 @@
+.corner {
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    right: 0;
+    top: 0;
+    border-style: solid;
+    border-width: 0 109vh 100vh 0;
+    border-color: transparent burlywood transparent;
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+}
