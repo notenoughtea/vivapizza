@@ -1,16 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Mainpage from './components/Mainpage/Mainpage';
+import AboutPage from './components/AboutPage/AboutPage';
 
 const App = () => (
   <div className="App">
     <Routes>
       <Route path="/" element={<Mainpage />} />
-      <Route path="about" element={<About />} />
+      <Route path="about" element={<AboutPage />} />
     </Routes>
   </div>
 );
-
-const About = () => <h1>About</h1>;
 
 export default App;

@@ -1,0 +1,100 @@
+.aboutPageTitle {
+    position: absolute;
+    width: 220px;
+    height: 65px;
+    top: 4vh;
+    left: 15vh;
+    font-size: 43px;
+    color: #550312;
+}
+
+.aboutPageSection1 {
+    position: relative;
+    top: 30vh;
+    left: 25vh;
+    width: 1200px;
+    height: 342px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    align-items: center;
+    justify-items: center;
+    gap: 0 35px;
+}
+.aboutPageSection2 {
+    position: relative;
+    top: 40vh;
+    left: 40vh;
+    width: 1200px;
+    height: 342px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    align-items: center;
+    justify-items: center;
+    gap: 0 35px;
+}
+.plate {
+    display: grid;
+    height: 304px;
+    width: 304px;
+    border-radius: 200px;
+    background: rgb(255, 224, 155);
+    background: linear-gradient(294deg, rgba(255, 224, 155, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border: solid rgb(255, 224, 155);
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText {
+    width: 777px;
+    height: 263px;
+    font-size: 24px;
+    text-indent: 1.5em;
+}
+
+.aboutImg {
+    width: 229px;
+    height: 229px;
+    border-radius: 200px;
+}
+
+.bottomCorner {
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    right: 0;
+    top: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 100vh;
+    border-color: transparent transparent #FFEBBE;
+}
+
+.stick1 {
+    position: relative;
+    z-index: 2;
+    width: 25px;
+    height: 200px;
+    right: 30px;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #FFBE41;
+    border-color: #FFBE41;
+}
+
+.stick2 {
+    position: relative;
+    z-index: 2;
+    width: 25px;
+    right: 30px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #550312;
+    border-color: #550312;
+}
+
+.aboutContent {
+    position: absolute;
+    z-index: 2;
+}
+

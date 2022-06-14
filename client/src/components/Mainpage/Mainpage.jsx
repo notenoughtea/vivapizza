@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Mainpage = () => (
   <div>
-    <div className="corner" />
+    <div className="topCorner" />
     <div className="content">
       <Navbar />
     </div>

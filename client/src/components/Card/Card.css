@@ -1,0 +1,64 @@
+.card {
+    width: 415px;
+    height: 892px;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid #EDCF6F;
+    border-radius: 18px;
+    gap: 1px 0;
+    padding: 40px 10px;
+    justify-items: center;
+    box-shadow: 0 10px 13px -7px #EDCF6F, 0 10px 15px -5px #EDCF6F;
+}
+.pizza-picture {
+    width: 305px;
+    max-height: 305px;
+    border-radius: 200px;
+    align-self: center;
+}
+.coin {
+    width: 80px;
+    height: 75px;
+}
+.title {
+    font-size: 38px;
+    text-align: center;
+    color: rgba(85, 3, 18, 1);
+}
+.description {
+    text-align: center;
+    font-size: 18px;
+    width: 330px;
+    height: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price-block {
+    width: 337px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    text-align: right;
+    font-size: 43px;
+}
+
+.cart-button {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(85, 3, 18, 1);
+    background-color: transparent;
+    border-radius: 55px;
+    height: 80px;
+    width: 200px;
+    border: 2px solid rgba(85, 3, 18, 1);
+    bottom: 0;
+}
