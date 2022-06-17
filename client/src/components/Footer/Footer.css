@@ -1,0 +1,28 @@
+.footerTitle {
+    font-size: 30px;
+}
+.footerBlock {
+    position: absolute;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    width: 550px;
+    height: 76px;
+    grid-template-columns: 150px 60px 315px;
+    align-content: center;
+    justify-content: center;
+}
+.footer {
+    position: absolute;
+    display: grid;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 155px;
+    background-color: #55031226;
+}
+.copyrightIcon {
+    margin-top: 21px;
+    width: 45px;
+    height: 45px;
+}
