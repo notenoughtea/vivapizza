@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="верстка главной страницы">
-      <change afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" afterDir="false" />
+    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="верстка страницы contacts">
+      <change afterPath="$PROJECT_DIR$/client/public/phone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ContactsPage/ContactsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ContactsPage/ContactsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <workItem from="1655019584962" duration="114000" />
       <workItem from="1655019709088" duration="205000" />
       <workItem from="1655020831252" duration="3507000" />
-      <workItem from="1655097761044" duration="35227000" />
+      <workItem from="1655097761044" duration="49254000" />
     </task>
     <task id="LOCAL-00001" summary="dev 0.1">
       <created>1655018657910</created>
@@ -97,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655224154026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="верстка страницы menu">
+      <created>1655226172307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655226172307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +128,8 @@
     <MESSAGE value="dev 0.1" />
     <MESSAGE value="верстка страницы about us, карточки" />
     <MESSAGE value="верстка главной страницы" />
-    <option name="LAST_COMMIT_MESSAGE" value="верстка главной страницы" />
+    <MESSAGE value="верстка страницы menu" />
+    <MESSAGE value="верстка страницы contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="верстка страницы contacts" />
   </component>
 </project>

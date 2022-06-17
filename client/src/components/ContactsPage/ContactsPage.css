@@ -1,0 +1,109 @@
+.feedback {
+    position: relative;
+    width: 701px;
+    height: 121px;
+    top: 196px;
+    background: #FFFDF1;
+    border: 1px #550312;
+    box-shadow: inset -23px -23px 45px rgba(255, 252, 233, 0.8), inset 26px 26px 48px #E5D8D0;
+    border-radius: 50px;
+
+    /*font properties*/
+    font-family: Poppins, sans-serif;
+    text-align: left;
+    text-indent: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    color: #804D4D;
+}
+.clockBlock {
+    position: absolute;
+    height: 190px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    bottom: 10vh;
+    left: 28vh;
+    align-items: center;
+}
+.phoneBlock {
+    width: 569px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: space-between;
+}
+.cellphoneNumber {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 349px;
+    height: 102px;
+    box-shadow: inset -25px -25px 45px rgba(255, 252, 233, 0.1), inset 26px 26px 48px #E5D8D0;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #804D4D;
+}
+.contactsBlock {
+    align-self: center;
+    justify-self: center;
+    width: 1720px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr;
+}
+.contactsPageContent {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    left: 20%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.contactsSection1 {
+    width: 569px;
+    height: 443px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.contactsSection2 {
+    width: 569px;
+    height: 443px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.contactsStick1 {
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #FFBE41;
+}
+.contactsStick2 {
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #550312;
+}
+.contactsLogo {
+    width: 100px;
+    height: 100px;
+}
+.contactsTitle1 {
+    color: #550312;
+    font-size: 43px;
+}
+.contactsTitle2 {
+    font-size: 30px;
+}
+.contactsText {
+    font-size: 24px;
+}
