@@ -1,4 +1,5 @@
 import './ContactsPage.css';
+import Footer from '../Footer/Footer';
 
 const ContactsPage = () => (
   <div className="contactsPage">
@@ -38,6 +39,7 @@ const ContactsPage = () => (
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 );
 
