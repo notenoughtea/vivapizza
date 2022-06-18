@@ -1,20 +1,18 @@
 import './Card.css';
 
-const Card = () => (
-  <div className="card">
+const Card = ({item}) => (
+  <div className="card" key={item.id}>
     <div className="card-content">
       <img className="pizza-picture" src="./pizzasample.png" alt="pizza" />
       <div className="text-block">
-        <h2 className="title">PEPPERONI</h2>
+        <h2 className="title">{item.title}</h2>
         <p className="description">
-          Lorem ipsum dolor sit amet. Vel tempora eveniet ut porro voluptate
-          33 consectetur reiciendis vel consequuntur nihil ea distinctio cumque.
-          Qui quam velit eos rerum blanditiis sed.
+          {item.text}
         </p>
       </div>
       <div className="price-block">
         <img className="coin" src="./coin.png" alt="coin" />
-        <p className="price">10$</p>
+        <p className="price">{item.price}</p>
       </div>
       <button type="button" className="cart-button">В корзину</button>
     </div>

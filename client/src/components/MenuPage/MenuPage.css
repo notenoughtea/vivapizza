@@ -24,6 +24,10 @@
 }
 .menubox {
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    width: 1000px;
     margin-top: 300px;
     margin-left: 100px;
     margin-right: 100px;

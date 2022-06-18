@@ -24,5 +24,3 @@ module.exports = (sequelize, DataTypes) => {
   });
   return User;
 };
-
-npx sequelize-cli model:generate --name User --attributes title:string,text:text,price:integer
