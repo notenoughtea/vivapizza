@@ -18,15 +18,6 @@
     line-height: 45px;
     color: #804D4D;
 }
-.clockBlock {
-    position: absolute;
-    height: 190px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    bottom: 10vh;
-    left: 28vh;
-    align-items: center;
-}
 .phoneBlock {
     width: 569px;
     height: 120px;

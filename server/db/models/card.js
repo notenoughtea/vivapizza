@@ -1,4 +1,4 @@
-const { Model } = require("sequelize");
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
   class Card extends Model {
@@ -19,8 +19,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     {
       sequelize,
-      modelName: "Card",
-    }
+      modelName: 'Card',
+    },
   );
   return Card;
 };
