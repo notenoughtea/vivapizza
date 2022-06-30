@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="фикс верстки главной страницы">
+      <change afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ContactsPage/ContactsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ContactsPage/ContactsPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/migrations/20220617194043-create-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/migrations/20220617194043-create-user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/migrations/20220617202738-create-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/migrations/20220617202738-create-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/models/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/seeders/20220617203525-demo-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/seeders/20220617203525-demo-users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/seeders/20220617212819-demo-cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/seeders/20220617212819-demo-cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,8 @@
       <workItem from="1655019709088" duration="205000" />
       <workItem from="1655020831252" duration="3507000" />
       <workItem from="1655097761044" duration="73075000" />
-      <workItem from="1655580807484" duration="13555000" />
+      <workItem from="1655580807484" duration="14773000" />
+      <workItem from="1656528222202" duration="15453000" />
     </task>
     <task id="LOCAL-00001" summary="dev 0.1">
       <created>1655018657910</created>
@@ -148,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655589729524</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="фикс верстки главной страницы">
+      <created>1656358592985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656358592985</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

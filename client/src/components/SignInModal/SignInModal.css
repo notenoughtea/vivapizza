@@ -1,0 +1,68 @@
+.modalBackground {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modalContainer > h1 {
+    color: #550312;
+}
+
+.SignInButtonsContainer > button {
+    color: #550312;
+    border-radius: 100px;
+}
+
+.modalContainer > form > input{
+    width: 200px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.modalContainer > form > label {
+    font-size:18px;
+}
+
+.modalContainer {
+    width: 350px;
+    height: 550px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    grid-template-rows: 2fr 9fr 1fr;
+    justify-items: center;
+    padding: 25px;
+}
+
+.modalContainer > form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.SignInButtonsContainer {
+    width: 250px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 55px;
+}
+
+/*.SignInButtonsContainer > button {*/
+/*    width: 80px;*/
+/*}*/
+
+.titleCloseBtn {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    justify-self: right;
+}
