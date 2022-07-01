@@ -1,6 +1,6 @@
 import './Card.css';
 
-const Card = ({item}) => (
+const Card = ({ item }) => (
   <div className="card" key={item.id}>
     <div className="card-content">
       <img className="pizza-picture" src="./pizzasample.png" alt="pizza" />

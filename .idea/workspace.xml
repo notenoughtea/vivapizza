@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="фикс верстки главной страницы">
-      <change afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" afterDir="false" />
+    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="создал модальное окно входа в учетную запись">
+      <change afterPath="$PROJECT_DIR$/client/src/components/SignUpModal/SignUpModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SignUpModal/SignUpModal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1655020831252" duration="3507000" />
       <workItem from="1655097761044" duration="73075000" />
       <workItem from="1655580807484" duration="14773000" />
-      <workItem from="1656528222202" duration="15453000" />
+      <workItem from="1656528222202" duration="20972000" />
     </task>
     <task id="LOCAL-00001" summary="dev 0.1">
       <created>1655018657910</created>
@@ -147,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656358592985</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавлено модальное окно регистрации">
+      <created>1656622780136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656622780136</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +184,8 @@
     <MESSAGE value="сервер express с моделями, миграциями и сидерами" />
     <MESSAGE value="вывод карточек с данными из базы" />
     <MESSAGE value="фикс верстки главной страницы" />
-    <option name="LAST_COMMIT_MESSAGE" value="фикс верстки главной страницы" />
+    <MESSAGE value="добавлено модальное окно регистрации" />
+    <MESSAGE value="создал модальное окно входа в учетную запись" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал модальное окно входа в учетную запись" />
   </component>
 </project>

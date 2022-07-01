@@ -1,25 +1,14 @@
 import './Mainpage.css';
 import { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
-import SignInModal from '../SignInModal/SignInModal';
 
 const Mainpage = () => {
-  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div>
       <div className="topCorner" />
       <div className="content">
         <Navbar />
-        <button
-          className="openModalBtn"
-          onClick={() => {
-            setModalOpen(true);
-          }}
-        >
-          Open
-        </button>
-        {modalOpen && <SignInModal className="SignInModal" setModalOpen={setModalOpen} />}
         <div className="mainPanel">
           <div className="mainPageBlock">
             <h1 className="mainPageTitle">Viva Pizza</h1>
