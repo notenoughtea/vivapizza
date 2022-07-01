@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import axios from 'axios';
 import App from './App';
+import { store } from './app/store'
+import { Provider } from 'react-redux'
 
 axios.defaults.baseURL = 'http://127.0.0.1:3333'; // ! аналогично в client/constants.js, server/bin/www.js, client/store/cardSlice.js
 
@@ -12,8 +14,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+        <Provider store={store}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        <Provider/>
   </React.StrictMode>,
 );

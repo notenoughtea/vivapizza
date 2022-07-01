@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="cоздал кнопку добавления карточки в меню">
+      <change afterPath="$PROJECT_DIR$/client/src/store/cardSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
       <workItem from="1655020831252" duration="3507000" />
       <workItem from="1655097761044" duration="73075000" />
       <workItem from="1655580807484" duration="14773000" />
-      <workItem from="1656528222202" duration="24152000" />
+      <workItem from="1656528222202" duration="26723000" />
     </task>
     <task id="LOCAL-00001" summary="dev 0.1">
       <created>1655018657910</created>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656695665055</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cоздал кнопку добавления карточки в меню">
+      <created>1656698848956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656698848956</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
