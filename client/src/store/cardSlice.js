@@ -21,7 +21,7 @@ const setError = (state, action) => {
     state.error = action.payload;
 };
 
-const cardlice = createSlice({
+const cardSlice = createSlice({
     name: "card",
     initialState: {
         card: [],
@@ -54,15 +54,15 @@ const cardlice = createSlice({
         },
     },
     extraReducers: {
-        [axioscard.pending]: (state) => {
+        [axiosCards.pending]: (state) => {
             state.status = "loading";
             state.error = null;
         },
-        [axioscard.fulfilled]: (state, action) => {
+        [axiosCards.fulfilled]: (state, action) => {
             state.status = "resolve";
             state.card = action.payload;
         },
-        [axioscard.rejected]: setError,
+        [axiosCards.rejected]: setError,
     },
 });
 

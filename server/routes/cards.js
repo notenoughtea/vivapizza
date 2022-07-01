@@ -12,7 +12,7 @@ router
     } catch (err) {
       res.status(500);
     }
-  }
+  })
   .post(async (req, res, next) => {
       try {
           if (req.body) {

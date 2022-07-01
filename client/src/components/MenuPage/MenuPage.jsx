@@ -2,9 +2,11 @@ import './MenuPage.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card from '../Card/Card';
+import AddCardForm from '../AddCardForm/AddCardForm'
 
 const MenuPage = () => {
-  const [cards, setCards] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [cards, setCards] = useState(null);
   useEffect(() => {
     axios.get('/cards').then((res) => setCards(res.data));
   }, []);
@@ -13,7 +15,9 @@ const MenuPage = () => {
       <h1 className="menuTitle">Наше меню</h1>
         <div className='AddCardButtonBlock'>
             <div className="menuPageStick" />
-            <button className='AddCardButton'>Add item</button>
+            <button onClick={() => {
+                setModalOpen(true);
+            }} className='AddCardButton'>Add item</button>
         </div>
       <div className="MenuBox">
         {
@@ -22,6 +26,7 @@ const MenuPage = () => {
         ))
         }
       </div>
+        {modalOpen && <AddCardForm className="AddCardForm" setModalOpen={setModalOpen} />}
     </div>
   );
 };
