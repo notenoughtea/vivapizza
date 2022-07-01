@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="создал модальное окно входа в учетную запись">
-      <change afterPath="$PROJECT_DIR$/client/src/components/SignUpModal/SignUpModal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SignUpModal/SignUpModal.jsx" afterDir="false" />
+    <list default="true" id="b19b2502-c834-46aa-a40b-79a381acc471" name="Changes" comment="cоздал кнопку добавления карточки в меню">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Mainpage/Mainpage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MenuPage/MenuPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SignInModal/SignInModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,7 @@
       <workItem from="1655020831252" duration="3507000" />
       <workItem from="1655097761044" duration="73075000" />
       <workItem from="1655580807484" duration="14773000" />
-      <workItem from="1656528222202" duration="20972000" />
+      <workItem from="1656528222202" duration="24152000" />
     </task>
     <task id="LOCAL-00001" summary="dev 0.1">
       <created>1655018657910</created>
@@ -157,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656622780136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="создал модальное окно входа в учетную запись">
+      <created>1656695665055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656695665055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +186,7 @@
     <MESSAGE value="фикс верстки главной страницы" />
     <MESSAGE value="добавлено модальное окно регистрации" />
     <MESSAGE value="создал модальное окно входа в учетную запись" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал модальное окно входа в учетную запись" />
+    <MESSAGE value="cоздал кнопку добавления карточки в меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="cоздал кнопку добавления карточки в меню" />
   </component>
 </project>

@@ -1,5 +1,27 @@
+.AddCardButtonBlock {
+    display: grid;
+    margin-left: 100px;
+    margin-top: 30px;
+    grid-gap: 300px;
+    width: 1030px;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.AddCardButton {
+    background-color: #d7f1d1;
+    border-radius: 100px;
+    border: solid #d7f1d1;
+    box-shadow: 10px 8px 8px 0 rgba(123, 219, 77, 0.2);
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #550312;
+    height: 40px;
+}
+
 .menuPageStick {
-    position: absolute;
     width: 300px;
     height: 30px;
     top: 200px;
@@ -8,9 +30,10 @@
     border-radius: 25px;
     background-color: #FFBE41;
     border-color: #FFBE41;
+    box-shadow: 10px 8px 8px 0 #FFBE41;
 }
 .menuTitle {
-    position: absolute;
+    margin-left: 40px;
     width: 300px;
     height: 55px;
     top: 3vh;
@@ -18,18 +41,16 @@
     font-size: 50px;
     color: #550312;
 }
-.menupage {
-    position: absolute;
-    padding: 60px;
+.MenuPage {
+    display: grid;
+    grid-template-rows: 1fr 1fr 20fr;
 }
-.menubox {
-    position: absolute;
+.MenuBox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px 10px;
-    width: 1000px;
-    margin-top: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 60px;
+    width: 1300px;
+    align-self: center;
+    justify-self: center;
 }

@@ -11,8 +11,11 @@ const MenuPage = () => {
   return (
     <div className="MenuPage">
       <h1 className="menuTitle">Наше меню</h1>
-      <div className="menuPageStick" />
-      <div className="menubox">
+        <div className='AddCardButtonBlock'>
+            <div className="menuPageStick" />
+            <button className='AddCardButton'>Add item</button>
+        </div>
+      <div className="MenuBox">
         {
         cards?.map((item) => (
           <Card item={item} />
